@@ -1,0 +1,14 @@
+{
+	"name": "cc",
+	"version": "1.0.0",
+	"main": "binding.js",
+	"scripts": {
+		"configure": "node-gyp configure",
+		"build": "node-gyp build",
+		"install": "node-gyp rebuild",
+		"start": "node ./index.js"
+	},
+	"dependencies": {
+		"nan": "latest"
+	}
+}
